@@ -6,7 +6,7 @@ spring:
       server:
         git:
           default-label: master
-          uri:
+          uri: https://github.com/josemariapafo/config-properties
           search-paths: config-data
   application:
-    name: config-server
+    name: config-service
